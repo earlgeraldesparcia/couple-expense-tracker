@@ -1,0 +1,43 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Kotlin/Java
+*.class
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Captures
+captures/
+
+# Native build cache
+.externalNativeBuild/
+.cxx/
+
+# Packaging outputs
+*.apk
+*.ap_
+*.aab
+
+# Keystores (if any)
+*.jks
+*.keystore
